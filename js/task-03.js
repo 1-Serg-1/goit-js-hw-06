@@ -8,7 +8,7 @@ const images = [
     alt: 'Orange and White Koi Fish Near Yellow Koi Fish',
   },
   {
-    url: 'https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    url: 'https://images.pexels.com/hotos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     alt: 'Group of Horses Running',
   },
 ];
@@ -16,7 +16,7 @@ const images = [
 const makeGalleryMarkup = ({ url, alt }) => {
   return `
   <li class="gallery__item">
-  <img class="gallery__img" src=${url} alt=${alt}>
+  <img class="gallery__img" src=${url} alt='${alt}'>
   </li>`;
 };
 
